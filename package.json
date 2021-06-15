@@ -61,7 +61,7 @@
     "deasync": "^0.1.13",
     "lodash": "4.17.21",
     "request": "^2.87.0",
-    "url-parse": "^1.4.3"
+    "url-parse": "1.5.1"
   },
   "devDependencies": {
     "coffee-coverage": "2.0.1",
