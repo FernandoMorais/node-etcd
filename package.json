@@ -1,27 +1,33 @@
 {
-  "name": "node-etcd",
-  "version": "7.0.0",
-  "description": "etcd library for node.js (etcd v2 api)",
+  "name": "@fernandomorais/node-etcd",
+  "version": "7.1.0",
+  "description": "This is an updated version of node-etcd",
   "repository": {
     "type": "git",
-    "url": "http://github.com/stianeikeland/node-etcd.git"
+    "url": "http://github.com/fernandomorais/node-etcd.git"
   },
+  "bugs": {
+    "url": "https://github.com/fernandomorais/node-etcd/issues"
+  },
+  "homepage": "https://github.com/fernandomorais/node-etcd",
   "licenses": [
     {
       "type": "BSD 3-Clause",
       "url": "http://opensource.org/licenses/BSD-3-Clause"
     }
   ],
+  "author": "Stian Eikeland <stian@eikeland.se>",
   "maintainers": [
     {
-      "name": "Stian Eikeland",
-      "email": "stian@eikeland.se",
-      "web": "http://eikeland.se/"
+      "name": "Fernando de Morais",
+      "email": "mnando@gmail.com",
+      "url": "https://github.com/fernandomorais"
     }
   ],
   "contribuitors": [
     {
       "name": "Stian Eikeland",
+      "email": "stian@eikeland.se",
       "url": "https://github.com/stianeikeland"
     },
     {
@@ -38,10 +44,18 @@
       "name": "Bryan Rockwood",
       "email": "bryan.rockwood@c2fo.com",
       "url": "https://github.com/brockwood"
+    },
+    {
+      "name": "Fernando de Morais",
+      "email": "mnando@gmail.com",
+      "url": "https://github.com/fernandomorais"
     }
   ],
   "engines": {
     "node": ">= 6.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "main": "lib/index.js",
   "scripts": {

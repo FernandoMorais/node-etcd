@@ -1,5 +1,11 @@
 # node-etcd
 
+---  
+
+**This is an updated version of [node-etcd](https://github.com/stianeikeland/node-etcd)**  
+
+---  
+
 A nodejs library for [ETCD v2](https://coreos.com/etcd/docs/latest/v2/api.html), written in coffee-script.
 
 [![Travis](https://img.shields.io/travis/stianeikeland/node-etcd.svg)](https://travis-ci.org/stianeikeland/node-etcd)
@@ -11,7 +17,7 @@ A nodejs library for [ETCD v2](https://coreos.com/etcd/docs/latest/v2/api.html),
 For nodes >= 6.x:
 
 ```
-$ npm install node-etcd
+$ npm install @fernandomorais/node-etcd
 ```
 
 For nodes 4.x <= node < 6.x:
@@ -33,6 +39,9 @@ $ npm install node-etcd@3.0.2
 ```
 
 ## Changes
+- 7.1.0
+  - Fixing vulnerabilities in lodash and url-parse
+  - Cleaning src and test from published package
 - 7.0.0
   - Fixing vulnerabilities
   - Drop support for nodejs version 4 &4

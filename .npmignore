@@ -6,3 +6,5 @@ npm-debug.log
 temp/
 .nyc_output
 coverage
+src
+test
