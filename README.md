@@ -39,6 +39,8 @@ $ npm install node-etcd@3.0.2
 ```
 
 ## Changes
+- 7.3.0
+  - Fixing url-parse version
 - 7.2.0
   - Fixing published version
 - 7.1.0
