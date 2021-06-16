@@ -39,6 +39,8 @@ $ npm install node-etcd@3.0.2
 ```
 
 ## Changes
+- 7.2.0
+  - Fixing published version
 - 7.1.0
   - Fixing vulnerabilities in lodash and url-parse
   - Cleaning src and test from published package
